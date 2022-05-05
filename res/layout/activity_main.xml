@@ -15,11 +15,21 @@
         android:textAlignment="center"
         android:text="Shell Executer" />
 
+
+
     <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/input_text"
-        android:hint="Example - ls" />
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/input_text"
+			android:hint="Example - ls" />
+			
+		<Spinner
+			android:id="@+id/spinner"
+			android:layout_width="40dp"
+			android:layout_height="wrap_content"
+			android:drawSelectorOnTop="false"
+			android:spinnerMode="dialog"
+			android:layout_toRightOf="@id/input_text" />
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
